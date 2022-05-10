@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "danielsmod:blocks/emmgilla",
+    "up": "danielsmod:blocks/emmgilla",
+    "north": "danielsmod:blocks/emmgilla",
+    "east": "danielsmod:blocks/emmgilla",
+    "south": "danielsmod:blocks/emmgilla",
+    "west": "danielsmod:blocks/emmgilla",
+    "particle": "danielsmod:blocks/emmgilla"
+  }
+}

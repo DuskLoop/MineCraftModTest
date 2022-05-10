@@ -1,0 +1,106 @@
+{
+  "mod_elements": [
+    {
+      "name": "DanielsProcedure",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "daniels_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DanielsBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daniels_block"
+    },
+    {
+      "name": "KillCows",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_cows"
+    },
+    {
+      "name": "KillCowsCommandExecuted",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kill_cows_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.danielsmod.daniels_block": "Daniels Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "danielsmod",
+    "modName": "DanielsMod",
+    "version": "1.0.0",
+    "author": "danielh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.danielsmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200119518
+}
